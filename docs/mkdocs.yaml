@@ -1,0 +1,17 @@
+site_name: Documentation of my project
+theme:
+  language: en
+  name: material
+  features: 
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Configuration: configuration.md
+
+plugins: 
+    - search
+    - mkdocstrings
+
+
