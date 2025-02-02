@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dtu-thesis-honeypot"
+version = "0.1.0"
+description = "A honeypot project for DTU thesis"
+authors = [
+    { name="Nicolai Veiglin Arends", email="s233480@student.dtu.dk" },
+    { name="Constantinos Palochis", email="	s232522@student.dtu.dk" }
+]
+
+[tool.setuptools]
+packages = ["dtu_thesis_honeypot"]
+
+
