@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-from honeypot import Honeypot
+from honeypot_server import Honeypot
 from breadcrumbs import setup_breadcrumbs
 
 app = Flask(__name__)

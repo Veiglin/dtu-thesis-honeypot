@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch, MagicMock
 from flask import Flask
-from honeypot import Honeypot
+from honeypot_server import Honeypot
 
 class TestHoneypot(unittest.TestCase):
     def setUp(self):
