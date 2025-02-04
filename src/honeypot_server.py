@@ -1,5 +1,4 @@
 from flask import Flask, request, render_template_string, redirect, url_for
-import logging
 from utils.logging import setup_logging
 import random
 import datetime
@@ -11,8 +10,8 @@ app = Flask(__name__)
 logger = setup_logging()
 
 # Define breadcrumbs and honeytokens
-BREADCRUMBS = ['/admin', '/config', '/backup']
-HONEYTOKENS = ['/secret.txt', '/.env', '/credentials.json']
+#BREADCRUMBS = ['/admin', '/config', '/backup']
+#HONEYTOKENS = ['/secret.txt', '/.env', '/credentials.json']
 
 # Fake system data
 fake_configs = {

@@ -3,12 +3,8 @@ import os
 from logging.handlers import RotatingFileHandler
 
 def setup_logging():
-    """
-    Set up logging for the honeypot application.
-    Logs are output both to the console and to a rotating file handler.
-    """
     # Create a logger with the name 'honeypot'
-    logger = logging.getLogger('honeypot')
+    logger = logging.getLogger('honeypot-logger')
     logger.setLevel(logging.DEBUG)  # Capture all levels of log messages
 
     # Define a formatter that includes the timestamp, logger name, log level, and message.
