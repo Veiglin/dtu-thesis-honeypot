@@ -1,6 +1,6 @@
 import unittest
 from flask import Flask
-from breadcrumbs import setup_breadcrumbs
+from utils.breadcrumbs import setup_breadcrumbs
 
 class TestBreadcrumbs(unittest.TestCase):
 
