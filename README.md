@@ -8,7 +8,12 @@ It is built on top of Flask framework.
 ## About
 
 
-## Installation
+## Getting Started
+
+### Prerequisites
+
+
+### Installation
 
 1. **Clone the repository:**
    ```bash
@@ -21,19 +26,15 @@ It is built on top of Flask framework.
    pip install -r requirements.txt
    ```
 
-## Running the Honeypot
-
-1. **Start the honeypot:**
-   ```bash
-   python main.py
-   ```
-
-2. **Access the honeypot in your browser or via tools:**
-   - Visit `http://localhost:8080` to see the default page.
-   - Check `http://localhost:8080/robots.txt` for breadcrumbs.
-   - Attempt to access `http://localhost:8080/
+### Usage
 
 
-## Testing the Honeypot
 
 
+
+### Testing
+
+
+
+## License
+Open-source honeypot under the **MIT license**.
